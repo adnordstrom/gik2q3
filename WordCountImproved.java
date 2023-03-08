@@ -37,7 +37,7 @@ public class WordCountImproved {
         } else if (firstFlag == false){
           itr = itr.substring(1);
         } else if (lastFlag == false){
-          itr = itr.substring(0, itr.length()-1)
+          itr = itr.substring(0, itr.length()-1);
         }
         word.set(itr);
         context.write(word, one);
