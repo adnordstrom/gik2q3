@@ -32,7 +32,7 @@ public class WordCountImproved {
         boolean firstFlag = Character.isLetter(first);
         boolean lastFlag = Character.isLetter(last);
         
-        if(firstFlag == false && lastFlag == fasle){
+        if(firstFlag == false && lastFlag == false){
           itr = itr.substring(1,itr.length() -1);
         } else if (firstFlag == false){
           itr = itr.substring(1);
